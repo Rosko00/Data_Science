@@ -1,6 +1,9 @@
 # variables 
 
 # Creating Variables
+from email.message import EmailMessage
+
+
 name = "Marian"
 print (name)
 
@@ -8,10 +11,15 @@ print (name)
 my_name_2 = "Galik"
 print (my_name_2)
 
+email = "marian.galik@gmail.com"
+
+my_data = (name, my_name_2, email)
+print (my_data)
+
 # Input function for user input from the console
 my_name = input ("Type your name:")
 print (my_name)
-input ("Type anything:")
+
 
 # addition variables
 number_of_apples = 20
