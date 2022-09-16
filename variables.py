@@ -1,9 +1,5 @@
 # variables 
 
-# Creating Variables
-from email.message import EmailMessage
-
-
 name = "Marian"
 print (name)
 
